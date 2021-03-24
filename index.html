@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body class="main" >
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <div class="container-master">
+
+        <h1>Conversor de Moeda</h1>
+
+        <form class="form-container">
+            
+            <div class="inputReal">
+                <label>Escreva o valor em real </label>
+                <input id="inputReal" step="0.01" type="number" placeholder="Ex: R$ 50,00" required>
+            </div> 
+            
+            <div class="inputMoedas">
+                <label>Escolha a moeda</label>
+                <select id= "moedas">
+                    <option value ="false" selected>...</option>
+                    <option value ="us">Dolar</option>
+                    <option value ="lb">Libra</option>
+                    <option value="eu">Euro</option>
+                </select>
+            </div>
+           
+            <div class="output">
+               
+                <output id = "retornaValor"></output>
+            </div>
+
+        </form>
+        <button class="button" onclick="ab()">
+            Calcular
+        </button> 
+        
+    </div>
+    <div class="copy">
+        <p><a href="https://brunotassinari.github.io/Portifolio/"target="_blank" rel="follow">&copy;<i>BrunoTassinari</i></a></p>
+    </div>
+
+    <footer class="logo">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </footer>
+    
+    
+    
+</body>
+    <script src="./javascript/script.js"></script>
+</html>

@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: arial,sans-serif;
+    font-size: 15pt;
+}
+
+body{
+    background: url(../img/back.jpg);
+    background-size: 100%;
+    
+}
+ .alura-logo{
+     width:60px;
+     position: absolute;
+     right: 20px;
+     top: 10px;
+ }
+
+ .container-master{
+    margin-top: 8%;
+    padding: 20px;
+    width: 33vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3f3f3f5e;
+    border: 1px solid #3f3f3f5e;
+    border-radius: 10px;
+    box-shadow: 3px 7px 20px black;
+ }
+
+ .container-master h1{
+    margin-top: 7px;
+     margin-bottom: 20px;
+     padding: 16px;
+ }
+ 
+.inputReal{
+    margin-bottom: 7px;
+    padding:10px;
+    width:24vw;
+}
+.inputReal input{
+    align-items: center;
+    display: block;
+    height:35px;
+    width:100%;
+    font-size: 1em;
+}
+.inputMoedas {
+    text-align: center;
+    margin-bottom: 7px;
+    padding:10px;
+    width:23vw;
+    font-size: 1.15em;
+}
+
+.output{
+    text-align: center;
+    margin-bottom: 7px;
+    padding:10px;
+    width:23vw;
+    font-size: 1em;
+}
+
+.button{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding:10px;
+    width:22vw;
+    font-size: 1em;
+}
+
+
+.logo {
+    background-color: #3f3f3f5e;
+    border: 1px solid #3f3f3f5e;
+    margin: 12px;
+    padding:3px;
+    padding-left:43%;
+    padding-right:43%;
+    position: fixed;
+    bottom: 0px;
+}
+
+ .logo img{
+    width:250px;
+    height:50px;
+}
+
+.copy a{
+    color:whitesmoke;
+}
+    
